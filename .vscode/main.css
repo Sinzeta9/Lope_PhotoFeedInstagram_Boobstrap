@@ -1,0 +1,68 @@
+body {
+  background-color: #fafafa;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: -0.5px;
+}
+
+/* Right side of header */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.create-btn {
+  background-color: #0095f6;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+}
+
+.settings-btn {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  color: #262626;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 1.1rem;
+}
+
+/* Grid toggle icons */
+.view-toggle {
+  text-align: center;
+  margin-top: 25px;
+}
+.view-toggle i {
+  color: #262626;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+/* Image Grid */
+.grid-container {
+  max-width: 950px;
+  margin: 25px auto 50px;
+}
+
+.grid-container img {
+  width: 100%;
+  /* evitar alto 0 si el contenedor no tiene altura explícita */
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  display: block;
+}
