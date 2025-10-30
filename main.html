@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Photo Feed</title>
+
+  <!-- Font Awesome (estable) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkfK0s4gxOhqg4u2Kq0M41Bq4l8XWUEk7y5Zg+Yrhs1a3wB1G1r6Vx5Wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap 5.3.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+
+  <!-- Tu CSS -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <i class="fa-brands fa-instagram"></i>
+      <a class="navbar-brand" href="#">InstaGraná</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav"></ul>
+      </div>
+
+      <div>
+        <button class="create-btn">Create a new post</button>
+        <button class="settings-btn" title="Settings" aria-label="Settings">
+          <i class="fa-solid fa-gear"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="view-toggle">
+    <i class="fa-solid fa-table-cells" aria-hidden="true"></i>
+    <i class="fa-regular fa-square" aria-hidden="true"></i>
+  </div>
+
+<!-- Grid -->
+<div class="grid-container">
+  <div class="row g-1">
+    <div class="col-md-4 col-12"><img src="drawablepics/grana1.jpg" alt="grana1"></div>
+    <div class="col-md-4 col-12"><img src="drawablepics/grana2.jpg" alt="grana2"></div>
+    <div class="col-md-4 col-12"><img src="drawablepics/grana3.jpg" alt="grana3"></div>
+
+    <div class="col-md-4 col-12"><img src="drawablepics/grana4.jpg" alt="grana4"></div>
+    <div class="col-md-4 col-12"><img src="drawablepics/grana5.jpg" alt="grana5"></div>
+    <div class="col-md-4 col-12"><img src="drawablepics/grana6.jpg" alt="grana6"></div>
+
+    <div class="col-md-4 col-12"><img src="drawablepics/grana7.jpg" alt="grana7"></div>
+    <div class="col-md-4 col-12"><img src="drawablepics/grana8.jpg" alt="grana8"></div>
+    <div class="col-md-4 col-12"><img src="drawablepics/grana9.jpg" alt="grana9"></div>
+  </div>
+</div>
+
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+</body>
+</html>
